@@ -97,7 +97,7 @@ const FrameParentRoot = styled.div`
   justify-content: center;
   padding: var(--padding-121xl) 0px;
   gap: var(--gap-63xl);
-  background-image: url("/frame-1000005536@3x.png");
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -112,10 +112,10 @@ const TradeTogetherSection = () => {
     <FrameParentRoot>
       <FrameWrapper>
         <TradeTogetherThriveTogetheParent>
-          {/* <TradeTogetherThriveContainer> */}
-            <TradeTogether>{`Trade Together. `}</TradeTogether>
+          <TradeTogetherThriveContainer>
+            <TradeTogether>{`Trade Together `}</TradeTogether>
             <ThriveTogether>Thrive Together.</ThriveTogether>
-          {/* </TradeTogetherThriveContainer> */}
+          </TradeTogetherThriveContainer>
           <JoinTheFunFilled>
             Join the fun-filled community on our platform.
           </JoinTheFunFilled>
