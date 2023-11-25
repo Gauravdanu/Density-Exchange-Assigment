@@ -112,10 +112,10 @@ const TradeTogetherSection = () => {
     <FrameParentRoot>
       <FrameWrapper>
         <TradeTogetherThriveTogetheParent>
-          <TradeTogetherThriveContainer>
+          {/* <TradeTogetherThriveContainer> */}
             <TradeTogether>{`Trade Together. `}</TradeTogether>
             <ThriveTogether>Thrive Together.</ThriveTogether>
-          </TradeTogetherThriveContainer>
+          {/* </TradeTogetherThriveContainer> */}
           <JoinTheFunFilled>
             Join the fun-filled community on our platform.
           </JoinTheFunFilled>
